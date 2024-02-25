@@ -1,0 +1,30 @@
+#container{
+    box-sizing: content-box;
+        height:500px;
+        width:500px;
+        display:flex;
+        flex-wrap: wrap;
+     }
+
+#container div{
+    border:1px solid black;
+    box-sizing: border-box;
+}    
+
+#wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 600px;
+    height:100vh;
+    width:100vw;
+}
+body{
+    height:100%;
+}
+#header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
